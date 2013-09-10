@@ -15,7 +15,6 @@ DATABASES = {
     'default': dj_database_url.config(
         default='sqlite:///' + PROJECT_DIR.child('database.db'))
 
-    }
 }
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
